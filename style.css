@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #C00000;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    max-width: 414px;
+    min-height: 100vh;
+    gap: 12px;
+    position: relative;
+}
+
+.img-logo{
+cursor: pointer;
+}
+
+h1 .img-h1{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+
+.conteiner-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.488px;
+    color: #FFF;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 8px;
+    border-radius: 25px;
+    background:#FFF;
+    outline: none;
+    border: none;   
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #FFF;   
+    padding-left: 4px;
+}
+
+input::placeholder{
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+letter-spacing: -0.25;
+color: #D2D5DD;
+}
+
+.button-login{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background: #F7CD23;
+    border: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 2px;
+    cursor: pointer;
+    color: #000;   
+    transition: 0.3s ease;
+}
+
+.button-login:hover{
+    background: #FFC107;
+}
+
+.button-login:active{
+    opacity: 0.6;
+}
+
+i{
+    color: #000;
+    font-size: 15px;
+}
+
+.button-google{
+    width: 200px;
+    height: 38px;
+    margin-top: 6px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-google:hover{
+    background: #187C19;
+}
+
+.button-google:active{
+    opacity: 0.6;
+}
+
+.conteiner-link{
+    margin-top: 20px;
+    position: relative;
+}
+
+a{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+span{
+    color: #FFF;
+}
+
